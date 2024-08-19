@@ -59,6 +59,12 @@ body, html {
     border-radius: 30px;
 }
 
+@media (max-width: 768px) {
+    .search-container input[type="text"] {
+        width: 80%;
+    }
+}
+
 .search-container button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -78,3 +84,4 @@ body, html {
     max-width: 300px;
     margin-bottom: -60px;
 }
+
